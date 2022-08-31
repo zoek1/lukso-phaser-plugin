@@ -1,0 +1,28 @@
+{
+  "name": "lukso-phaser",
+  "version": "1.0.0",
+  "description": "Plugin to connect LUKSO to Phaser games",
+  "main": "index.js",
+  "author": "Miguel Gordian",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "builddev": "webpack --mode development",
+    "start": "webpack-dev-server --mode development"
+  },
+  "dependencies": {
+    "@erc725/erc725.js": "^0.14.4",
+    "@lukso/lsp-factory.js": "^2.3.3",
+    "@lukso/lsp-smart-contracts": "^0.6.2",
+    "assert": "^2.0.0",
+    "isomorphic-fetch": "^3.0.0",
+    "phaser": "^3.55.2",
+    "stream-browserify": "^3.0.0",
+    "web3": "^1.7.5",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^4.10.0"
+  }
+}
